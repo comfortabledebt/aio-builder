@@ -3792,7 +3792,7 @@ function App() {
                         type="text"
                         value={inputDebrid}
                         onChange={(e) => setInputDebrid(e.target.value)}
-                        placeholder="Type here..."
+                        placeholder="Type here... "
                     />
                     <div className="section-details">
                         <p>Sign up <a href="https://torbox.app/login?next=/subscription?referral=5f3d633a-d6ad-44bf-9b31-488b9340b098" target="_blank" rel="noreferrer">here</a>.</p>
