@@ -186,7 +186,7 @@ h2 {
 .section.info {
     background: linear-gradient(90deg, #00c6ff, #0072ff);
     color: black;
-    margin: 50px 0;
+    margin: 50px 0 0;
 
     p {
         color: black;
@@ -199,6 +199,10 @@ h2 {
     a {
         color: black;
     }
+}
+
+.section.learn-more {
+    margin-bottom: 50px;
 }
 
 .section-step {

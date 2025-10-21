@@ -3881,6 +3881,9 @@ function App() {
                         <p>Install and enjoy!</p>
                     </div>
                 </div>
+                <div className="section slide-up learn-more" style={{ animationDelay: "1.2s" }}>
+                    <h4>To learn about how you can make your own changes, check <a href="https://github.com/Viren070/AIOStreams/wiki" target="_blank">the wiki page</a>.</h4>
+                </div>
                 <div className="footer">👉🏼  Comfortable.Debt - 2025</div>
             </main>
         </div>
