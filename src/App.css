@@ -102,8 +102,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-    width: 100%;
+    gap: 30px;
+    width: 90%;
     max-width: 600px;
 }
 
@@ -123,20 +123,82 @@ h2 {
     animation: fadeInUp 0.8s ease both;
 }
 
-.section.debridio:hover {
-    border-color: #450d58;
-    box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+.section.debridio {
+    &:hover {
+        border-color: #450d58;
+        box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+    }
+
+    h2 {
+        margin-left: 65px;
+
+        &:before {
+            background-image: url('./assets/debridio.png');
+            background-size: 35px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            content: "";
+            position: absolute;
+            margin-left: -50px;
+            margin-top: -2px;
+        }
+    }
 }
 
-.section.torbox:hover {
-    border-color: #34ba90;
-    box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+
+
+
+.section.torbox {
+    &:hover {
+        border-color: #34ba90;
+        box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+    }
+
+    h2 {
+        margin-left: 65px;
+
+        &:before {
+            background-image: url('./assets/tb.svg');
+            background-size: 65px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 65px;
+            height: 65px;
+            content: "";
+            position: absolute;
+            margin-left: -65px;
+            margin-top: -15px;
+        }
+    }
 }
 
-.section.tmdb:hover {
-    border-color: #1bb8d8;
-    box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+.section.tmdb {
+    &:hover {
+        border-color: #1bb8d8;
+        box-shadow: 0 0 15px rgba(0, 114, 255, 0.2);
+    }
+
+    h2 {
+        margin-left: 50px;
+
+        &:before {
+            background-image: url('./assets/tmdb.jpg');
+            background-size: 40px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            content: "";
+            position: absolute;
+            margin-left: -55px;
+            margin-top: -5px;
+        }
+    }
 }
+
+
 
 .section p {
     margin: 0 0 10px;
