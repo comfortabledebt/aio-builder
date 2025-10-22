@@ -9,7 +9,6 @@ function App() {
     const [inputTMDBApiKey, setInputTMDBApiKey] = useState("");
     const [inputTMDBReadAccessToken, setInputTMDBReadAccessToken] = useState("");
     const [fadeIn, setFadeIn] = useState(false);
-    const hateMessage = 'The borderline useless';
 
     useEffect(() => {
         // Trigger fade-in on mount
@@ -489,8 +488,7 @@ function App() {
     "HDR",
     "HDR10+",
     "IMAX",
-    "10bit",
-    "SDR"
+    "10bit"
   ],
   "preferredAudioTags": [
     "Atmos",
@@ -1604,9 +1602,7 @@ function App() {
     "HDR10",
     "HDR",
     "IMAX",
-    "10bit",
-    "DV",
-    "SDR"
+    "10bit"
   ],
   "preferredAudioTags": [
     "Atmos",
@@ -2643,8 +2639,7 @@ function App() {
     "HDR",
     "HDR10+",
     "IMAX",
-    "10bit",
-    "SDR"
+    "10bit"
   ],
   "preferredAudioTags": [
     "Atmos",
@@ -3378,9 +3373,7 @@ function App() {
     "HDR10",
     "HDR",
     "IMAX",
-    "10bit",
-    "DV",
-    "SDR"
+    "10bit"
   ],
   "preferredAudioTags": [
     "Atmos",
