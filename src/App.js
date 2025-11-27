@@ -3791,10 +3791,14 @@ function App() {
                         <p>Sign up <a href="https://torbox.app/login?next=/subscription?referral=5f3d633a-d6ad-44bf-9b31-488b9340b098" target="_blank" rel="noreferrer">here</a>.</p>
                         <div className="tb-referral-message-container">
                             <div className="tb-referral-message-icon">🔥</div>
-                            <p className="tb-referral-message">After signing up, <a href="https://torbox.app/subscription?referral=5f3d633a-d6ad-44bf-9b31-488b9340b098" target="_blank" rel="noreferrer">click here</a> to get <span className="highlight">7 days added to your account for free</span> for each month you purchase!</p>
+                            <div className="tb-referral-message-text">
+                                <p className="tb-referral-message">After signing up, <a href="https://torbox.app/subscription?referral=5f3d633a-d6ad-44bf-9b31-488b9340b098" target="_blank" rel="noreferrer">click here</a> to get <a className="highlight" href="https://torbox.app/subscription?referral=5f3d633a-d6ad-44bf-9b31-488b9340b098" target="_blank" rel="noreferrer">7 days added to your account for free</a> with each month you purchase!</p>
+                                <p className="tb-referral-message">1 month purchased = 7 free days</p>
+                                <p className="tb-referral-message">1 year purchased = 84 free days</p>
+                            </div>
                         </div>
-                        <p className="highlight">1 month purcahsed = 7 free days</p>
-                        <p className="highlight">1 year purcahsed = 84 free days</p>
+                        <div className="tb-referral-message-days"></div>
+
                     </div>
                 </div>
 
@@ -3879,7 +3883,6 @@ function App() {
                 <div className="section slide-up learn-more" style={{ animationDelay: "1.2s" }}>
                     <h4>To learn about how you can make your own changes, check <a href="https://github.com/Viren070/AIOStreams/wiki" target="_blank">the wiki page</a>.</h4>
                 </div>
-                <div className="footer">👉🏼  Comfortable.Debt - 2025</div>
             </main>
         </div>
     );
